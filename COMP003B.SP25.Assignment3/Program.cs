@@ -1,9 +1,9 @@
 // Program.cs
 /*
-    Author: Your Full Name
-    Course: COMP-003B: ASP.NET Core
-    Faculty: Jonathan Cruz
-    Purpose: Implements a Job Application Portal demonstrating routing, model binding, and validation.
+Jonathan Cruz
+COMP-003B: ASP.NET Core
+Faculty: Jonathan Cruz
+Purpose: An event registration app demonstrating routing, model binding, and validation.
 */
 namespace COMP003B.SP25.Assignment3
 {
@@ -35,7 +35,7 @@ namespace COMP003B.SP25.Assignment3
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=JobApplication}/{action=Apply}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }
