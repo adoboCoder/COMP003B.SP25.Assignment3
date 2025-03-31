@@ -5,6 +5,7 @@
 }
 <h2>@ViewData["Title"]</h2>
 <p>Thank you, @Model.FullName!</p>
+<p>The email you entered is @Model.Email</p>
 <p>You have successfully registered for <strong>@Model.EventCode</strong> with <strong>@Model.Tickets</strong> ticket(s).</p>
 @if (!string.IsNullOrWhiteSpace(Model.ReferralCode))
 {
